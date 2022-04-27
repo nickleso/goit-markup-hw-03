@@ -1,0 +1,256 @@
+body {
+  color: var(--primary-text-color);
+
+  background-color: var(--primary-bcg-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --logo-color: #2196f3;
+  --accent-color: #2196f3;
+  --nav-color: #757575;
+  --address-color: #ffffff;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  /* text colors */
+
+  --primary-bcg-color: #ffffff;
+  --hero-bcg-color: #2f303a;
+  --footer-bcg-color: #2f303a;
+  --section-bcg-color: #f5f4fa;
+  /* background colors */
+}
+
+/* header styles */
+/* logo styles */
+.logo {
+  color: var(--logo-color);
+
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: var(--primary-text-color);
+
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  text-decoration: none;
+}
+
+/* site-navigation styles */
+.site-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover {
+  color: var(--accent-color);
+}
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* contacts in header */
+.contact-list .contact:hover {
+  color: var(--accent-color);
+}
+.contact-list .contact:focus {
+  color: var(--accent-color);
+}
+
+.contact-list .contact {
+  color: var(--nav-color);
+  font-weight: 500;
+  line-height: 1.14;
+
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-list,
+.contact-list {
+  list-style: none;
+}
+
+/* studio page styles */
+/* hero section*/
+.hero {
+  background-color: var(--hero-bcg-color);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--address-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  display: inline-block;
+  color: var(--address-color);
+
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--address-color);
+  color: var(--accent-color);
+}
+.hero-button:focus {
+  background-color: var(--address-color);
+  color: var(--accent-color);
+}
+
+/* features, work, team sections */
+.section .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+
+  text-align: center;
+}
+
+.feature-list .title {
+  font-weight: 700;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+.feature-list .text {
+  color: var(--text-color);
+
+  line-height: 1.71;
+}
+
+.our-team {
+  background-color: var(--section-bcg-color);
+}
+
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-list .text {
+  color: var(--text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.feature-list,
+.work-list,
+.team-list {
+  list-style: none;
+}
+
+/* portfolio page styles */
+/* buttons*/
+.portfolio-buttons .btn {
+  color: var(--primary-text-color);
+  background-color: var(--section-bcg-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  cursor: pointer;
+}
+
+.portfolio-buttons .btn:hover {
+  color: var(--address-color);
+  background-color: var(--accent-color);
+}
+.portfolio-buttons .btn:focus {
+  color: var(--accent-color);
+}
+
+.portfolio-buttons,
+.portfolio-list {
+  list-style: none;
+}
+
+.item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.item-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* footer */
+/* logo in footer */
+.footer {
+  background-color: var(--footer-bcg-color);
+}
+
+.footer-logo-studio {
+  color: var(--address-color);
+}
+
+/* address styles */
+.address {
+  color: var(--address-color);
+  font-style: normal;
+  line-height: 1.71;
+}
+
+/* email, tel styles */
+.address-list .cont-address {
+  color: var(--contacts-color);
+
+  line-height: 1.71;
+
+  text-decoration: none;
+}
+
+.address-list .cont-address:hover {
+  color: var(--accent-color);
+}
+.address-list .cont-address:focus {
+  color: var(--accent-color);
+}
+
+.address-list {
+  list-style: none;
+}
