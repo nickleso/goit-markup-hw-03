@@ -64,6 +64,7 @@ img {
 
 /* logo styles */
 .logo {
+  margin-right: 93px;
   color: var(--logo-color);
 
   font-family: raleway, sans-serif;
@@ -75,15 +76,7 @@ img {
 }
 
 .logo-studio {
-  margin-right: 93px;
   color: var(--primary-text-color);
-
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-
-  text-decoration: none;
 }
 
 /* site-navigation styles */
@@ -253,10 +246,7 @@ img {
   margin-right: 30px;
 }
 
-.feature-list .element:last-child,
-.work-list .element:last-child,
-.team-list .element:last-child,
-.portfolio-buttons .element:last-child {
+.feature-list .element:last-child {
   margin-right: 0;
 }
 
@@ -287,6 +277,10 @@ img {
   margin-right: 30px;
 }
 
+.work-list .element:last-child {
+  margin-right: 0;
+}
+
 .work {
   padding-top: 0;
 }
@@ -307,6 +301,11 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+.team-list .element:last-child {
+  margin-right: 0;
+}
+
 .team-description {
   padding: 30px 0;
 }
@@ -335,6 +334,10 @@ img {
 
 /* portfolio page styles */
 /* buttons*/
+.portfolio-buttons .element:last-child {
+  margin-right: 0;
+}
+
 .portfolio-buttons {
   display: flex;
   justify-content: center;
@@ -441,6 +444,10 @@ img {
   padding-bottom: 60px;
 
   background-color: var(--footer-bcg-color);
+}
+
+.footer .logo {
+  margin-right: 0;
 }
 
 .footer-logo-studio {
